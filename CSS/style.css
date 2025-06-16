@@ -1,0 +1,430 @@
+body{
+    background-color: black;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1B1B;
+    border: 1px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 50px;
+}
+.main-section{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.item{
+    font: IBM plex Mono;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    color: #9c9c9c;
+}
+.About-Section{
+    color: white;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right:30px ;
+}
+.About-Section p{
+    width: 450px;
+}
+.About-Section h1{
+    font: Raleway;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.About-Section p {
+    font: IBM plex Mono;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: #9C9C9C;
+}
+.About-Section button{
+    font: IBM plex Mono;
+     background-color: #3F8E00;
+     color: white;
+    border: 1px #62BA1B;
+    width: 130px;
+    height: 30px;
+
+}
+.img-section img{
+    width: 120px;
+    height: 120px;
+    border: 1px;
+    border-radius: 50%;
+}
+h4{
+
+    background-color: white;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Case-studies{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+}
+.Case-studies2{
+    display: flex;
+    flex-direction: row;
+    gap: 240px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+}
+
+.content1 p{
+    width: 400px;
+}
+.img1 img{
+    width: 90%;
+}
+.content2 p{
+    width: 450px;
+    gap: 40px;
+}
+.img2 img{
+    width: 200%;
+    height: 150px;
+    
+}
+.content1 h1{
+    font: IBM plex Mono;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: #FFA217;
+}
+.content1 h2{
+    font: Raleway;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#080808;
+}
+.content1 p{
+    font: IBM plex Mono;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: #9c9c9c;
+}
+.content1 button{
+    background-color: #FFA217;
+    width: 150px;
+    border: 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.content2 h1{
+    font: IBM plex Mono;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: blue;
+}
+.content2 h2{
+    font: Raleway;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#080808;
+}
+.content2 p{
+    font: IBM plex Mono;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: #9c9c9c;
+}
+.content2 button{
+    background-color: blue;
+    width: 150px;
+    border: 2px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.recent-work{
+  display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+   
+}
+.recent-project1 img{
+  width: 250px;
+  height: 100px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.recent-project1 h2{
+    padding-left: 40px;
+  padding-top: 20px;
+    font: Raleway;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+   
+}
+.recent-project1 p{
+     padding-left: 40px;
+     width: 400px;
+       font: IBM plex Mono;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: #9c9c9c;
+  
+}
+.recent-project1 button{
+    margin-left: 40px;
+     margin-bottom: 20px;
+     font: IBM plex Mono;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    color: white;
+    background-color: #62BA1B;
+    padding: 10px;
+    border: 1px;
+    border-radius: 6px;
+}
+.recent-project2 h2{
+    padding-left: 40px;
+  padding-top: 20px;
+    font: Raleway;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+   
+}
+
+.recent-project2 p{
+    width: 400px;
+     font: IBM plex Mono;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: #9c9c9c;
+}
+.recent-project2 button{
+    margin-left: 40px;
+     margin-bottom: 20px;
+     font: IBM plex Mono;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    color: white;
+    background-color: #62BA1B;
+    padding: 10px;
+    border: 1px;
+    border-radius: 6px;
+}
+.recent-project2 img{
+    width: 250px;
+  height: 100px;
+   padding-top: 20px;
+   
+}
+.header2 h4{
+    background-color: black;
+    color: white;
+    font: Raleway;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.header1 h4{
+    
+    color: black;
+    font: Raleway;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background-color: white;
+}
+.header3 h4{
+    
+    color: black;
+    font: Raleway;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background-color: white;
+}
+form{
+    background-color: white;
+     margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+}
+input{
+    margin: 10px;
+    width: 20%;
+    font: IBM plex Mono;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+textarea{
+     margin: 10px;
+    width: 20%;
+}
+footer{
+    color:white;
+     text-align: center;
+     padding-top: 10px;
+      margin-left: 40px;
+    margin-right: 40px;
+    
+
+}
+input[type="button"]{
+    font: IBM plex Mono;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    color: white;
+    background-color: #62BA1B;
+    padding: 10px;
+    border: 1px;
+    border-radius: 6px;
+}
+.case-studies-wrapper {
+  background-color: white;
+  padding-top: 20px;
+}
+.contact-wrapper {
+  background-color: white;
+  padding-top: 20px;
+}
+ 
+@media screen and (max-width: 767px) {
+  .flex-container {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .main-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .About-Section, .img-section {
+    margin: 10px auto;
+  }
+
+  .Case-studies, .Case-studies2 {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .content1 p, .content2 p,
+  .recent-project1 p, .recent-project2 p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .img1 img, .img2 img,
+  .recent-project1 img, .recent-project2 img {
+    width: 90%;
+    height: auto;
+  }
+
+  .recent-work {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  form, input, textarea {
+    width: 90% !important;
+  }
+
+  input[type="button"] {
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Case-studies, .Case-studies2 {
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .recent-work {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  form, input, textarea {
+    width: 70%;
+  }
+}
